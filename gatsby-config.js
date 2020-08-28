@@ -1,15 +1,15 @@
 module.exports = {
   pathPrefix: `/blog`,
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `メンティーのおどり`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `みう`,
+      summary: `プログラミングのお勉強してます！上位100%のIT人材デス！三度の飯がすき。バックエンド勢。`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `プログラミングのお勉強してます！上位100%のIT人材デス！三度の飯がすき。バックエンド勢。`,
+    siteUrl: `https://programable-miu.github.io/blog/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `programable_miu`,
     },
   },
   plugins: [
@@ -61,13 +61,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `メンティーのおどり`,
+        short_name: `メンティー`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#000000`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

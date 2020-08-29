@@ -3,8 +3,11 @@ import Theme from "typography-theme-github"
 
 Theme.overrideThemeStyles = () => {
   return {
-    "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
+    a: {
+      color: "#1cA0F3",
+    },
+    "a:hover,a:active": {
+      textDecoration: "underline dashed",
     },
   }
 }

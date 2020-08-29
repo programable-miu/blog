@@ -34,8 +34,8 @@ const SEO = ({ description, lang, meta, title }) => {
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      title={title ? title : site.siteMetadata.title}
+      titleTemplate={title ? `%s | ${site.siteMetadata.title}` : `%s`}
       meta={[
         {
           name: `description`,
@@ -43,7 +43,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:title`,
-          content: title,
+          content: title ? title : site.siteMetadata.title,
         },
         {
           property: `og:description`,
@@ -52,6 +52,10 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          name: `og:image`,
+          content: `https://programable-miu.github.io/blog/icon.png`,
         },
         {
           name: `twitter:card`,
@@ -63,7 +67,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: title ? title : site.siteMetadata.title,
         },
         {
           name: `twitter:description`,
@@ -75,7 +79,7 @@ const SEO = ({ description, lang, meta, title }) => {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `ja`,
   meta: [],
   description: ``,
 }

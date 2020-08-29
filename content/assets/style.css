@@ -12,3 +12,20 @@ body:before {
   background: linear-gradient(#ffffff 0%, #fff6f9 50%, #ffffff 100%);
   z-index: -2;
 }
+
+@keyframes purupuru-animation {
+  0%   {transform: skewX( 0.00deg);}
+  10%  {transform: skewX(-20.0deg);}
+  20%  {transform: skewX( 12.0deg);}
+  30%  {transform: skewX(-7.20deg);}
+  40%  {transform: skewX( 4.32deg);}
+  50%  {transform: skewX(-2.60deg);}
+  60%  {transform: skewX( 1.56deg);}
+  70%  {transform: skewX(-0.93deg);}
+  80%  {transform: skewX( 0.56deg);}
+  90%  {transform: skewX(-0.34deg);}
+}
+
+.purupuru {
+  animation: purupuru-animation 1s linear infinite;
+}

@@ -24,6 +24,7 @@ const Layout = ({ location, title, children, parallaxController }) => {
           marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
+        className={`purupuru`}
       >
         <Link
           style={{

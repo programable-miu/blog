@@ -11,7 +11,7 @@ Theme.overrideThemeStyles = () => {
       textDecoration: "underline dashed",
     },
     h1: {
-      borderBottom: `4px dashed ${gray(93)}`,
+      border: `none`,
     },
     h2: {
       borderBottom: `4px dashed ${gray(93)}`,

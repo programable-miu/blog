@@ -29,3 +29,9 @@ body:before {
 h1, h2 {
   animation: purupuru-animation 1s linear infinite;
 }
+
+div.parallax-outer {
+  border-radius: 240px;
+  overflow: hidden;
+  z-index: 1;
+}

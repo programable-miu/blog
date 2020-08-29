@@ -1,5 +1,6 @@
 import Typography from "typography"
 import Theme from "typography-theme-github"
+import gray from "gray-percentage"
 
 Theme.overrideThemeStyles = () => {
   return {
@@ -8,6 +9,12 @@ Theme.overrideThemeStyles = () => {
     },
     "a:hover,a:active": {
       textDecoration: "underline dashed",
+    },
+    h1: {
+      borderBottom: `4px dashed ${gray(93)}`,
+    },
+    h2: {
+      borderBottom: `4px dashed ${gray(93)}`,
     },
   }
 }

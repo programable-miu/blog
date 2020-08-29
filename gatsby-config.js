@@ -3,13 +3,14 @@ module.exports = {
   siteMetadata: {
     title: `メンティーのおどり`,
     author: {
-      name: `みう`,
-      summary: `プログラミングのお勉強してます！上位100%のIT人材デス！三度の飯がすき。バックエンド勢。`,
+      name: `みう＠かけだしメンティー`,
+      summary: `上位100%のIT人材。バックエンド勢。三度の飯がすき。`,
     },
-    description: `プログラミングのお勉強してます！上位100%のIT人材デス！三度の飯がすき。バックエンド勢。`,
+    description: `上位100%のIT人材。バックエンド勢。三度の飯がすき。`,
     siteUrl: `https://programable-miu.github.io/blog/`,
     social: {
       twitter: `programable_miu`,
+      github: `programable-miu`,
     },
   },
   plugins: [

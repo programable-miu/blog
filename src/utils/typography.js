@@ -1,17 +1,54 @@
 import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
+import Theme from "typography-theme-github"
+import gray from "gray-percentage"
 
-Wordpress2016.overrideThemeStyles = () => {
+Theme.overrideThemeStyles = () => {
   return {
-    "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
+    a: {
+      color: "#1cA0F3",
+    },
+    "a:hover,a:active": {
+      textDecoration: "underline dashed",
+    },
+    h1: {
+      borderBottom: `4px dashed ${gray(93)}`,
+    },
+    h2: {
+      borderBottom: `4px dashed ${gray(93)}`,
     },
   }
 }
 
-delete Wordpress2016.googleFonts
+delete Theme.googleFonts
 
-const typography = new Typography(Wordpress2016)
+const typography = new Typography({
+  ...Theme,
+  headerFontFamily: [
+    "Lucida Grande",
+    "segoe UI",
+    "ヒラギノ丸ゴ ProN",
+    "Hiragino Maru Gothic ProN",
+    "Meiryo",
+    "Arial",
+    "sans-serif",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+  ],
+  bodyFontFamily: [
+    "Lucida Grande",
+    "segoe UI",
+    "ヒラギノ丸ゴ ProN",
+    "Hiragino Maru Gothic ProN",
+    "Meiryo",
+    "Arial",
+    "sans-serif",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+  ],
+  scaleRatio: 1.5,
+})
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {

@@ -1,13 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[メンティーのおどり]]></title><description><![CDATA[上位100%のIT人材（バックエンド）。おかきが好きなのでおかき関係のエンジニアになりたいかも。]]></description><link>https://programable-miu.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 Aug 2020 16:03:02 GMT</lastBuildDate><item><title><![CDATA[にばんめの投稿]]></title><description><![CDATA[…]]></description><link>https://programable-miu.github.io/blog/2020-08-29-secondpost/</link><guid isPermaLink="false">https://programable-miu.github.io/blog/2020-08-29-secondpost/</guid><pubDate>Fri, 28 Aug 2020 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;デザインのために投稿ページ下の記事同士のリンクを出したいのですけど、ふたつ投稿がないと出ないのでにばんめの投稿をします。&lt;/p&gt;
-&lt;p&gt;デザインのために投稿ページ下の記事同士のリンクを出したいのですけど、ふたつ投稿がないと出ないのでにばんめの投稿をします。&lt;/p&gt;
-&lt;p&gt;デザインのために投稿ページ下の記事同士のリンクを出したいのですけど、ふたつ投稿がないと出ないのでにばんめの投稿をします。&lt;/p&gt;
-&lt;p&gt;デザインのために投稿ページ下の記事同士のリンクを出したいのですけど、ふたつ投稿がないと出ないのでにばんめの投稿をします。&lt;/p&gt;
-&lt;p&gt;デザインのために投稿ページ下の記事同士のリンクを出したいのですけど、ふたつ投稿がないと出ないのでにばんめの投稿をします。&lt;/p&gt;
-&lt;p&gt;デザインのために投稿ページ下の記事同士のリンクを出したいのですけど、ふたつ投稿がないと出ないのでにばんめの投稿をします。&lt;/p&gt;
-&lt;p&gt;デザインのために投稿ページ下の記事同士のリンクを出したいのですけど、ふたつ投稿がないと出ないのでにばんめの投稿をします。&lt;/p&gt;
-&lt;p&gt;デザインのために投稿ページ下の記事同士のリンクを出したいのですけど、ふたつ投稿がないと出ないのでにばんめの投稿をします。&lt;/p&gt;
-&lt;p&gt;デザインのために投稿ページ下の記事同士のリンクを出したいのですけど、ふたつ投稿がないと出ないのでにばんめの投稿をします。&lt;/p&gt;
-&lt;p&gt;デザインのために投稿ページ下の記事同士のリンクを出したいのですけど、ふたつ投稿がないと出ないのでにばんめの投稿をします。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[こんばんわ〜自己紹介など]]></title><description><![CDATA[みうです。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[メンティーのおどり]]></title><description><![CDATA[上位100%のIT人材（バックエンド）。おかきが好きなのでおかき関係のエンジニアになりたいかも。]]></description><link>https://programable-miu.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 Aug 2020 19:41:00 GMT</lastBuildDate><item><title><![CDATA[ABC 177 C - Sum of product of pairs]]></title><description><![CDATA[AtCoder Beginner ContestのC問題だけやるシリーズをちょっと始めてみようかな〜と思います。
+なんでC問題だけ解くかというと、初学者がぎりぎり解けそうで解けないのがC問題くらいだから。 使う言語はrubyにします。
+みんながよく使ってるjavascript…]]></description><link>https://programable-miu.github.io/blog/2020-08-30-abc177/</link><guid isPermaLink="false">https://programable-miu.github.io/blog/2020-08-30-abc177/</guid><pubDate>Sat, 29 Aug 2020 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;AtCoder Beginner ContestのC問題だけやるシリーズをちょっと始めてみようかな〜と思います。
+なんでC問題だけ解くかというと、初学者がぎりぎり解けそうで解けないのがC問題くらいだから。&lt;/p&gt;
+&lt;p&gt;使う言語はrubyにします。
+みんながよく使ってるjavascriptかrubyで迷ったんですけどjavascriptは入力処理がマゾすぎるのでやめました。
+ちゃんと競プロやりたい人はC++がオススメですけど。&lt;/p&gt;
+&lt;p&gt;今日やるのは &lt;a href=&quot;https://atcoder.jp/contests/abc177/tasks/abc177_c&quot;&gt;ABC 177 C - Sum of product of pairs&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;問題みて最初に思うこと&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1 &amp;#x3C;= i &amp;#x3C;= i &amp;#x3C;= N を満たす全ての組 (i, j) について&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ペアは O(N ** 2) 個あることがわかるけど制約には&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2 &amp;#x3C;= N &amp;#x3C;= 2 * 10 ** 5&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;って書いてあるので二重ループすると計算量が O(4 * 10 ** 10) になっちゃってTLEしますね。
+ここを上手になんとかできるかどうかがこの問題のポイントになってるみたい。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ai * Aj の和を mod 10 ** 9 + 7 で求めてください&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;これは大きい整数がでるときにあるあるなやつで、オーバーフローでWAになるのイヤなのでちょこちょこmodするだけ。&lt;/p&gt;
+&lt;h2&gt;解き方を考える&lt;/h2&gt;
+&lt;p&gt;modのことはしばらく忘れて話をするんですけど。
+数学的にちゃんとしたのじゃなくて、解くときの気持ちに近いように書きます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ans = (Ai * Aj) の総和（と一時的に呼ぶ）&lt;/li&gt;
+&lt;li&gt;Aの要素がansの値に影響するのは、どれかのペアのAiまたはAjであるとき&lt;/li&gt;
+&lt;li&gt;具体的に10番目の要素A10をみて、これがAjとして登場するペアの和は&lt;/li&gt;
+&lt;li&gt;(A1 * A10) + (A2 * A10) + … + (A9 * A10)&lt;/li&gt;
+&lt;li&gt;= (A1 + A2 + … + A9) * A10&lt;/li&gt;
+&lt;li&gt;A10 は A1〜A9 と1回ずつ掛け合わされてansに入る&lt;/li&gt;
+&lt;li&gt;あるAの要素はそれより左にあるの全部と1回ずつペアになる&lt;/li&gt;
+&lt;li&gt;配列を左から見てって、そこまでの総和を覚えてるとすぐ計算できる&lt;/li&gt;
+&lt;li&gt;全体で O(N) でとけるのでTLEにならない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;みたいなことを考えればオッケーです。&lt;/p&gt;
+&lt;h2&gt;解答コード&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;ruby&quot;&gt;&lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;&lt;span class=&quot;token constant&quot;&gt;MOD&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;
+
+&lt;span class=&quot;token constant&quot;&gt;N&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; gets&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;to_i
+&lt;span class=&quot;token constant&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; gets&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;split&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;map&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token symbol&quot;&gt;:to_i&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+sum &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+product_sum &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+
+&lt;span class=&quot;token constant&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+  product_sum &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; sum &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; a
+  product_sum &lt;span class=&quot;token string&quot;&gt;%= MOD
+  sum +=&lt;/span&gt; a
+  sum &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;MOD&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;end&lt;/span&gt;
+
+puts product_sum&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;それぞれの要素について、それより左にある要素の総和と掛け算したのを足してく〜というのをそのまま書きました。
+ループがひとつだけでオッケーなところが気持ちよい。&lt;/p&gt;
+&lt;p&gt;今回のC問題は文法構造がややこしいところはなくて、考察がちょっといる感じのでした。
+アルゴリズムとしては『累積和』と呼ばれてるやつで、めっちゃよく出てくるやつなので、覚えておくとよいことあります。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[こんばんわ〜自己紹介など]]></title><description><![CDATA[みうです。
 Twitter…]]></description><link>https://programable-miu.github.io/blog/2020-08-29-goodnight/</link><guid isPermaLink="false">https://programable-miu.github.io/blog/2020-08-29-goodnight/</guid><pubDate>Fri, 28 Aug 2020 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;みうです。
 Twitterで焼き肉とかうどんの話をしてます。
 私のツイートからいらっしゃった方はこんばんわ！

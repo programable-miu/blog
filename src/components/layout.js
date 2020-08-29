@@ -1,9 +1,18 @@
-import React from "react"
+import React, { useEffect }  from "react"
 import { Link } from "gatsby"
+import { ParallaxProvider, withController } from "react-scroll-parallax"
 
 import { rhythm, scale } from "../utils/typography"
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ location, title, children, parallaxController }) => {
+  // https://github.com/jscottsmith/react-scroll-parallax/issues/67#issuecomment-522338783
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      // https://github.com/jscottsmith/react-scroll-parallax/issues/65#issuecomment-558282801
+      window.requestAnimationFrame(parallaxController.update)
+    }
+  }, [parallaxController, location])
+
   const rootPath = `${__PATH_PREFIX__}/`
   let header
 
@@ -64,4 +73,4 @@ const Layout = ({ location, title, children }) => {
   )
 }
 
-export default Layout
+export default withController(Layout)

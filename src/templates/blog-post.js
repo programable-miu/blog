@@ -38,7 +38,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             {post.frontmatter.date}
           </p>
         </header>
-        <SeparatorImage />
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <SeparatorImage />
         <footer>

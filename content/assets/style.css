@@ -26,6 +26,6 @@ body:before {
   90%  {transform: skewX(-0.34deg);}
 }
 
-.purupuru {
+h1, h2 {
   animation: purupuru-animation 1s linear infinite;
 }

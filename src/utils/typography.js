@@ -14,7 +14,8 @@ Theme.overrideThemeStyles = () => {
       border: `none`,
     },
     h2: {
-      borderBottom: `4px dashed ${gray(93)}`,
+      marginTop: `60px`,
+      border: `none`,
     },
   }
 }

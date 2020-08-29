@@ -1,6 +1,6 @@
 import React, { useEffect }  from "react"
 import { Link } from "gatsby"
-import { ParallaxProvider, withController } from "react-scroll-parallax"
+import { withController } from "react-scroll-parallax"
 
 import { rhythm, scale } from "../utils/typography"
 

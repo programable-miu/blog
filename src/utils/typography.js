@@ -1,6 +1,5 @@
 import Typography from "typography"
 import Theme from "typography-theme-github"
-import gray from "gray-percentage"
 
 Theme.overrideThemeStyles = () => {
   return {

@@ -8,6 +8,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
+import { FaTwitterSquare, FaGithubSquare } from "react-icons/fa"
 
 import { rhythm } from "../utils/typography"
 
@@ -62,12 +63,11 @@ const Bio = () => {
           <strong>{author.name}</strong>
         </p>
         <p style={{ margin: 0 }}>
-          <a href={`https://twitter.com/${social.twitter}`}>
-            ついったー
-          </a>
-          ・
           <a href={`https://github.com/${social.github}`}>
-            ぎっとはぶ
+            <FaGithubSquare size={`2em`} color={`#24292e`} />
+          </a>
+          <a href={`https://twitter.com/${social.twitter}`}>
+            <FaTwitterSquare size={`2em`} color={`#55acee`} />
           </a>
         </p>
         <p style={{ margin: 0 }}>

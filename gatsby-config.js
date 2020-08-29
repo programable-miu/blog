@@ -4,9 +4,9 @@ module.exports = {
     title: `メンティーのおどり`,
     author: {
       name: `みう＠かけだしメンティー`,
-      summary: `上位100%のIT人材。バックエンド勢。三度の飯がすき。`,
+      summary: `上位100%の人材（バックエンドエンジニア）。おかきが好きなのでおかき関係のエンジニアになりたいかも。`,
     },
-    description: `上位100%のIT人材。バックエンド勢。三度の飯がすき。`,
+    description: `上位100%のIT人材（バックエンドエンジニア）。おかきが好きなのでおかき関係のエンジニアになりたいかも。`,
     siteUrl: `https://programable-miu.github.io/blog/`,
     social: {
       twitter: `programable_miu`,

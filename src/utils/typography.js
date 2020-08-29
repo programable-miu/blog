@@ -40,6 +40,7 @@ const typography = new Typography({
     "Segoe UI Emoji",
     "Segoe UI Symbol",
   ],
+  scaleRatio: 1.5,
 })
 
 // Hot reload typography in development.

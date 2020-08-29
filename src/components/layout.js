@@ -1,7 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
+import { ParallaxProvider } from "react-scroll-parallax"
 
 import { rhythm, scale } from "../utils/typography"
+
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -47,20 +49,22 @@ const Layout = ({ location, title, children }) => {
     )
   }
   return (
-    <div
-      style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-      }}
-    >
-      <header>{header}</header>
-      <main>{children}</main>
-      <footer style={{ textAlign: `center` }}>
-        © 2020 programable-miu
-      </footer>
-    </div>
+    <ParallaxProvider>
+      <div
+        style={{
+          marginLeft: `auto`,
+          marginRight: `auto`,
+          maxWidth: rhythm(24),
+          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        }}
+      >
+        <header>{header}</header>
+        <main>{children}</main>
+        <footer style={{ textAlign: `center` }}>
+          © 2020 programable-miu
+        </footer>
+      </div>
+    </ParallaxProvider>
   )
 }
 

@@ -2,6 +2,5 @@
 import "typeface-montserrat"
 import "typeface-merriweather"
 
-import "./static/prism-okaidia-custom.css"
-
-import "./static/style.css"
+import "./content/assets/style.css"
+import "./content/assets/prism-okaidia-custom.css"

@@ -36,6 +36,12 @@ const SEO = ({ description, lang, meta, title }) => {
       }}
       title={title ? title : site.siteMetadata.title}
       titleTemplate={title ? `%s | ${site.siteMetadata.title}` : `%s`}
+      link={[
+        {
+          rel: `canonical`,
+          href: `https://programable-miu.github.io/blog/`,
+        },
+      ]}
       meta={[
         {
           name: `description`,

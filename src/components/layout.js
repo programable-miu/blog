@@ -1,11 +1,18 @@
-import React from "react"
+import React, { useEffect }  from "react"
 import { Link } from "gatsby"
-import { ParallaxProvider } from "react-scroll-parallax"
+import { ParallaxProvider, withController } from "react-scroll-parallax"
 
 import { rhythm, scale } from "../utils/typography"
 
+const Layout = ({ location, title, children, parallaxController }) => {
+  // https://github.com/jscottsmith/react-scroll-parallax/issues/67#issuecomment-522338783
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      // https://github.com/jscottsmith/react-scroll-parallax/issues/65#issuecomment-558282801
+      window.requestAnimationFrame(parallaxController.update)
+    }
+  }, [parallaxController, location])
 
-const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
 
@@ -49,23 +56,21 @@ const Layout = ({ location, title, children }) => {
     )
   }
   return (
-    <ParallaxProvider>
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer style={{ textAlign: `center` }}>
-          © 2020 programable-miu
-        </footer>
-      </div>
-    </ParallaxProvider>
+    <div
+      style={{
+        marginLeft: `auto`,
+        marginRight: `auto`,
+        maxWidth: rhythm(24),
+        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+      }}
+    >
+      <header>{header}</header>
+      <main>{children}</main>
+      <footer style={{ textAlign: `center` }}>
+        © 2020 programable-miu
+      </footer>
+    </div>
   )
 }
 
-export default Layout
+export default withController(Layout)

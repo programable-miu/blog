@@ -23,6 +23,8 @@ delete Theme.googleFonts
 
 const typography = new Typography({
   ...Theme,
+  baseFontSize: "14px",
+  baseLineHeight: 1.5,
   headerFontFamily: [
     "Lucida Grande",
     "segoe UI",

@@ -1,4 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[メンティーのおどり]]></title><description><![CDATA[上位100%のIT人材（バックエンド）。おかきが好きなのでおかき関係のエンジニアになりたいかも。]]></description><link>https://programable-miu.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 30 Aug 2020 08:06:25 GMT</lastBuildDate><item><title><![CDATA[ABC 177 C - Sum of product of pairs]]></title><description><![CDATA[AtCoder Beginner ContestのC問題だけやるシリーズをちょっと始めてみようかな〜と思います。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[メンティーのおどり]]></title><description><![CDATA[上位100%のIT人材（バックエンド）。おかきが好きなのでおかき関係のエンジニアになりたいかも。]]></description><link>https://programable-miu.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 31 Aug 2020 13:42:08 GMT</lastBuildDate><item><title><![CDATA[駆け出しエンジニア界隈の地図]]></title><description><![CDATA[ツイッターのハッシュタグ『#駆け出しエンジニアと繋がりたい』を中心とした界隈を３ヶ月くらい見てました。
+私から見てここがどんな場所でどんな人がいたのかをまとめてみます。 駆け出しエンジニア界隈の雰囲気 駆け出しエンジニア界隈にいる人のメイン層は『20代後半くらいで他業種からIT…]]></description><link>https://programable-miu.github.io/blog/2020-08-31-kakedashi_engineer/</link><guid isPermaLink="false">https://programable-miu.github.io/blog/2020-08-31-kakedashi_engineer/</guid><pubDate>Sun, 30 Aug 2020 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ツイッターのハッシュタグ『#駆け出しエンジニアと繋がりたい』を中心とした界隈を３ヶ月くらい見てました。
+私から見てここがどんな場所でどんな人がいたのかをまとめてみます。&lt;/p&gt;
+&lt;h2&gt;駆け出しエンジニア界隈の雰囲気&lt;/h2&gt;
+&lt;p&gt;駆け出しエンジニア界隈にいる人のメイン層は『20代後半くらいで他業種からITエンジニアへの転職をしたいと思ってる人』です。
+そのまわりに情報商材屋、スクール経営者、現役エンジニアがいます。&lt;/p&gt;
+&lt;p&gt;全体的なツイートの雰囲気はこんな感じ。
+励ましあうみたいな前向きなツイートが多いです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;『今日の積み上げ、●●の上級コースしたよ』&lt;/li&gt;
+&lt;li&gt;『自分の夢に挑戦したい』&lt;/li&gt;
+&lt;li&gt;『ウェブ制作の案件受注で収益●●円』&lt;/li&gt;
+&lt;li&gt;『●●をすればプログラミングが上達するよ』&lt;/li&gt;
+&lt;li&gt;『転職活動で●●●●は受けがよかった』&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;技術でよく話されてるのはこんな感じで、ウェブ系の話に集中してます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HTML + CSS + JavaScript&lt;/li&gt;
+&lt;li&gt;WordPress&lt;/li&gt;
+&lt;li&gt;Ruby on Rails&lt;/li&gt;
+&lt;li&gt;React / View&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;外からみた駆け出しエンジニア界隈&lt;/h2&gt;
+&lt;p&gt;現役ウェブ系エンジニアのツイートでハッシュタグ『#駆け出しエンジニアと繋がりたい』の話がでると、否定的な感じのことが多いです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;『初学者と繋がりたがる人は何が目的なの？』&lt;/li&gt;
+&lt;li&gt;『プログラミングスクールに搾取されてそう』&lt;/li&gt;
+&lt;li&gt;『HTMLはプログラミングじゃないでしょ』&lt;/li&gt;
+&lt;li&gt;『給与とかリモートワークとかに夢みすぎ』&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;現役エンジニアは、『スクールが過剰にキラキラした宣伝するものだから簡単な技術だけで変に自信を持っちゃって転職を考えてる人がいっぱいいるけど、この人たちの未来は大丈夫なのかな、スクールは悪じゃないのかな？』みたいに思ってたりします。&lt;/p&gt;
+&lt;p&gt;これをみた初学者は、『現役エンジニアって攻撃的にマウントをとってくる人が多くて怖い。私はいまの苦しい生活から抜け出すために技術を身に付けたくて、尊敬できる先生から学んでるのに、どうして私たちのことを悪く言われなきゃいけないの』みたいに思ってたりします。&lt;/p&gt;
+&lt;h2&gt;タイプ『ITエンジニアへの転職希望者』&lt;/h2&gt;
+&lt;p&gt;駆け出しエンジニア界隈のメイン層の『ITエンジニアへの転職希望者』はこんな感じの人。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;他の仕事しながらオンライン教材で勉強中&lt;/li&gt;
+&lt;li&gt;仕事やめてプログラミングスクールで勉強中&lt;/li&gt;
+&lt;li&gt;資格とったり何か作ったりしながら転職活動&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;プログラミングスクールとかオンライン教材とかの内容はウェブ系に集中してます。
+HTML・CSS・JavaScriptからはじまって、学習が進むとReactとかRuby on Railsとかに入っていくのが多いです。
+ウェブ制作の副業がやりたくてWordPressやデザインを学ぶ人もいます。&lt;/p&gt;
+&lt;p&gt;ツイートはこんな感じ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;『今日の積み上げ、●●の上級コースしたよ』&lt;/li&gt;
+&lt;li&gt;『内定でたけど収入が下がりすぎるので辞退』&lt;/li&gt;
+&lt;li&gt;『自分の夢に挑戦したい』&lt;/li&gt;
+&lt;li&gt;『ポートフォリオを充実させていきたい』&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;基本的に前向きで『みんながんばろうね！』って初学者同士で励まし合うのが多くて、この雰囲気だけみるとやばいマルチ商法にハマってる人たちにちょっと似てます。&lt;/p&gt;
+&lt;p&gt;けっこう人の入れ替わりがあって、『昔の相互さんみんないなくなった』『３ヶ月で９割いなくなる』みたいなツイートはちょこちょこ見ます。
+転職に成功していなくなる人と、挫折していなくなる人の２パターンいます。&lt;/p&gt;
+&lt;h2&gt;タイプ『情報商材屋』&lt;/h2&gt;
+&lt;p&gt;ハッシュタグ『#駆け出しエンジニアと繋がりたい』には情報商材屋の狩場みたいな側面があります。
+初学者にはいっぱいDMが来るのですが、ほとんどぜんぶ情報商材屋です。&lt;/p&gt;
+&lt;p&gt;DMの内容はこんな感じ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;『いつから勉強していますか？』&lt;/li&gt;
+&lt;li&gt;『いまなにを学んでいますか？』&lt;/li&gt;
+&lt;li&gt;『どのような目標を持っていますか？』&lt;/li&gt;
+&lt;li&gt;『アドバイスするので通話しませんか？』&lt;/li&gt;
+&lt;li&gt;『よい副業があるのですがやりませんか？』&lt;/li&gt;
+&lt;li&gt;『スクールを経営しているのですが入りませんか？』&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こういうDMしてくる人はエンジニアじゃなくて、アフェリエイトとかせどりとかの世界の人です。
+プロフィールに『脱サラしてビジネスで生計を立てる』みたいなことが書いてあったりします。&lt;/p&gt;
+&lt;h2&gt;タイプ『スクール経営者』&lt;/h2&gt;
+&lt;p&gt;駆け出しエンジニア界隈にはちゃんとしたプログラミングスクールとかサロンとかコミュニティとかを運営してる人もいます。
+この人たちの特徴はこんな感じ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;本名が公開されてることが多い&lt;/li&gt;
+&lt;li&gt;本人に技術者としてのバックグラウンドがある&lt;/li&gt;
+&lt;li&gt;技術や転職について有益なことをいう&lt;/li&gt;
+&lt;li&gt;あんまりカドが立つこと言わない&lt;/li&gt;
+&lt;li&gt;ポジショントークは入っちゃう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ツイートはこんな感じ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;『いまから配信でReactの話するよ〜』&lt;/li&gt;
+&lt;li&gt;『データベース設計がいちばんダイジ』&lt;/li&gt;
+&lt;li&gt;『未経験からの転職に必要な学習時間、実際に測ってみると●●●●時間くらいだった』&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このタイプはマジメに技術や転職市場のことを考えてる師匠クラスの人たちです。
+いやそうでもないかも。
+ピンキリです。&lt;/p&gt;
+&lt;p&gt;情報商材屋にもスクールを経営してるって言ってる人がいるんですけど、このタイプの情報商材屋と、ちゃんとしたスクール経営者とは見分けなきゃダメです。&lt;/p&gt;
+&lt;h2&gt;タイプ『現役ITエンジニア』&lt;/h2&gt;
+&lt;p&gt;最後〜、駆け出しエンジニア界隈にいる現役エンジニアについて。&lt;/p&gt;
+&lt;h3&gt;転職活動に成功した人&lt;/h3&gt;
+&lt;p&gt;駆け出しエンジニア界隈にいた人が転職できたあと、これまでの交友関係があるので界隈に残ることがあって、転職活動の経験談とか実際に働いてみてどんな感じみたいなツイートをします。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;『働きはじめて２ヶ月、先輩もやさしい』&lt;/li&gt;
+&lt;li&gt;『私の年収●●●万なんだけどこれってどう？』&lt;/li&gt;
+&lt;li&gt;『転職活動で●●●●は受けがよかった』&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;駆け出しエンジニア界隈を見に来た現役エンジニア&lt;/h3&gt;
+&lt;p&gt;現役ウェブ系エンジニアの間では駆け出しエンジニア界隈のイメージはよくないんですけど、実際のとこどうなのって見に来る人がいます。
+このタイプはそんなに前向きじゃなくて、ポジショントークもしないです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;『実務では●●はよく使うのでダイジだよ』&lt;/li&gt;
+&lt;li&gt;『あの教材、何周もする人いるけど意味ない』&lt;/li&gt;
+&lt;li&gt;『みんなフロントエンドしてるの変だよね？』&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;自然と集まってきたITエンジニア&lt;/h3&gt;
+&lt;p&gt;ハッシュタグ『#駆け出しエンジニアと繋がりたい』はITエンジニアが多いので、ITの話をしたくて来る人がいます。
+このタイプは非ウェブ系（組み込みとかメーカーとか）の人もけっこーいます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;『Pythonで機械学習してみた』&lt;/li&gt;
+&lt;li&gt;『制御工学のことブログに書いた』&lt;/li&gt;
+&lt;li&gt;『組み込みにも人きて欲しいんだけど』&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;おしまい&lt;/h2&gt;
+&lt;p&gt;読んでくれてありがとうございます🙌💕&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ABC 177 C - Sum of product of pairs]]></title><description><![CDATA[AtCoder Beginner ContestのC問題だけやるシリーズをちょっと始めてみようかな〜と思います。
 なんでC問題だけ解くかというと、初学者がぎりぎり解けそうで解けないのがC問題くらいだから。 使う言語はrubyにします。
 みんながよく使ってるjavascript…]]></description><link>https://programable-miu.github.io/blog/2020-08-30-abc177/</link><guid isPermaLink="false">https://programable-miu.github.io/blog/2020-08-30-abc177/</guid><pubDate>Sat, 29 Aug 2020 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;AtCoder Beginner ContestのC問題だけやるシリーズをちょっと始めてみようかな〜と思います。
 なんでC問題だけ解くかというと、初学者がぎりぎり解けそうで解けないのがC問題くらいだから。&lt;/p&gt;

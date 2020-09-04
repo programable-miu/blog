@@ -35,3 +35,7 @@ div.parallax-outer {
   overflow: hidden;
   z-index: 1;
 }
+
+pre {
+  font-size: 1.2em !important;
+}

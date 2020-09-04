@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SeparatorImage from "../components/SeparatorImage"
+import SeparatorImageLine from "../components/SeparatorImageLine"
 import { rhythm, scale } from "../utils/typography"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
@@ -38,8 +39,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             {post.frontmatter.date}
           </p>
         </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <SeparatorImage />
+        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <SeparatorImageLine />
         <footer>
           <Bio />
         </footer>

@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SeparatorImage from "../components/SeparatorImage"
+import SeparatorImageLine from "../components/SeparatorImageLine"
 import { rhythm } from "../utils/typography"
 
 const BlogIndex = ({ data, location }) => {
@@ -15,6 +16,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="" />
       <Bio />
+      <SeparatorImage />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -41,7 +43,7 @@ const BlogIndex = ({ data, location }) => {
           </article>
         )
       })}
-      <SeparatorImage />
+      <SeparatorImageLine />
     </Layout>
   )
 }

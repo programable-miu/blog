@@ -26,7 +26,7 @@ description: ツイッターのハッシュタグ『#駆け出しエンジニア
 - HTML + CSS + JavaScript
 - WordPress
 - Ruby on Rails
-- React / View
+- React / Vue
 
 ## 外からみた駆け出しエンジニア界隈
 
